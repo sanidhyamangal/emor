@@ -13,6 +13,7 @@ services:
     volumes: 
       - .:/app
     command: python manage.py runserver 0.0.0.0:80
+    restart: always
     ports:
       - 8080:80
     depends_on:

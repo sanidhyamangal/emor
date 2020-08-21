@@ -5,7 +5,7 @@ EXPOSE 80
 
 WORKDIR /app
 ADD . /app
-
+RUN chmod +x wait-for-it.sh
 
 # update the image
 RUN apt-get -y update 

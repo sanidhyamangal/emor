@@ -7,7 +7,7 @@ WORKDIR /app
 ADD . /app
 
 
-# Install libreoffice
+# update the image
 RUN apt-get -y update 
 
 # # Using pip:

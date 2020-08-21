@@ -81,7 +81,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'emor.urls'
+ROOT_URLCONF = 'linkedinclone.urls'
 
 TEMPLATES = [
     {
